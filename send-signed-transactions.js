@@ -1,7 +1,7 @@
 const { ethers } = require("ethers");
 
 // Goerli Testnet Info
-const Alchemy_ID = "ArNqVKwJgefMaNZ4GyuqCz-ZFnLHmxPd";
+const Alchemy_ID = "https://eth-goerli.g.alchemy.com/v2/ArNqVKwJgefMaNZ4GyuqCz-ZFnLHmxPd";
 const provider = new ethers.providers.AlchemyProvider("goerli", Alchemy_ID);
 
 const account1 = "0x08755B4d595AFA790d760CF499778f8ff610607E" // sender
